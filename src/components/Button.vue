@@ -35,7 +35,7 @@
     .btn--simple {
         @apply px-[10px] py-[7px] flex 
         justify-between items-center rounded-md 
-        capitalize bg-black bg-opacity-20 hover:bg-opacity-45
-         transition-all duration-300 shadow-md
+        capitalize bg-sky hover:bg-opacity-45
+         transition-all duration-300 shadow-md text-white
     }
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full h-screen bg-slate-300">
+  <div class="w-full h-screen bg-main">
     <div
-      class=" text-center py-[20px] capitalize font-ss text-6xl cursor-pointer"
+      class=" text-center text-white py-[20px] capitalize font-ss text-6xl cursor-pointer"
     >
       <swiper
      

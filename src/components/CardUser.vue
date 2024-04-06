@@ -1,5 +1,5 @@
 <template>
-    <Card tag="li" v-if="user" class= "w-[300px] h-[260px] flex flex-col justify-center items-center bg-black bg-opacity-25 px-[30px] py-[15px] rounded-xl shadow-lg" >
+    <Card tag="li" v-if="user" class= "w-[300px] h-[260px] flex flex-col justify-center items-center bg-light-gray px-[30px] py-[15px] rounded-xl  shadow-black shadow-inner" >
         <template #header>
             <div v-if="user.picture?.large" class="pt-[10px] rounded-full">
                 <Img :src="user.picture?.large" :alt="user.gender" loading="lazy" class="rounded-full"/>

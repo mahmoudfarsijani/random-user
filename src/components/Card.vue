@@ -1,7 +1,7 @@
 <template>
     <component :is="tag">
-        <div v-if="$slots.header">
-            <slot name="header">
+        <div v-if="$slots.header" class="text-white">
+            <slot name="header" >
                 Please Click Button!
             </slot>
         </div>
