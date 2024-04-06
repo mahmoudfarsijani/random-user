@@ -32,13 +32,13 @@
 
     const props = defineProps({
         tag:string(),
-        user:shape({
+        user:object({
             email:string(),
             gender:string(),
             picture:object({
                 large:string()
             }),
-            name:shape({
+            name:object({
                 first:string(),
                 last:string()
             }),

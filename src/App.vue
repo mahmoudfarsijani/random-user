@@ -4,7 +4,7 @@
       class=" text-center py-[20px] capitalize font-ss text-6xl cursor-pointer"
     >
       <swiper
-        :modules="modules"
+     
         :slides-per-view="1"
         :space-between="50"
         navigation
@@ -65,7 +65,6 @@ const dataFetching =  () => {
     then(data => data.results[0]).
     then(item => {let itemData = item;
       users.value = itemData
-      console.log(users.value);
     })
 };
 
@@ -81,5 +80,5 @@ const onSwiper = (swiper) => {
 const onSlideChange = () => {
   console.log("slide change");
 };
-modules: [Navigation, Pagination, Scrollbar, A11y];
+ 
 </script>
